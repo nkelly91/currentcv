@@ -1,0 +1,236 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #465A72;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 4px;
+  word-spacing: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.menu {
+  background-color: #465A72;
+  margin: 30;
+  padding: 20px 0 10px 20px;
+  text-align: left;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.links {
+  float: right;
+  margin-right: 30px;
+  line-height: 2.5;
+  word-spacing: 50px;
+}
+
+.cityscape {
+  margin: 0;
+  width: 100%;
+  height: 693px;
+}
+
+.cardcontainer {
+  width: 50%;
+  margin: 0 25% 0 25%;
+  position: absolute;
+  top: 168px;
+  /*top: 95px;*/
+}
+
+.card {
+  height: 508px;
+  background-color: #f9f9f9;
+  line-height: 2;
+}
+
+.profile {
+  height: 509px;
+  width: 50%;
+  margin-right: 30px;
+  float: left;
+}
+
+.quote {
+  background-color: #465A72;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.aboutme {
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  text-align: center;
+  line-height: 2;
+  background-color: #ececeb;
+  position: relative;
+  bottom: 5px;
+  z-index: -2;
+}
+
+.abouttext {
+  width: 50%;
+  margin: 0 25% 0 25%;
+}
+
+.experience {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 60px;
+  text-align: center;
+  line-height: 2;
+  background-color: #f9f9f9;
+  position: relative;
+  bottom: 5px;
+  z-index: 2;
+}
+
+.exptbl {
+  width: 70%;
+  margin: 0 15% 0 15%;
+}
+
+.education {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 60px;
+  text-align: left;
+  line-height: 2;
+  background-color: #f9f9f9;
+  position: relative;
+  bottom: 5px;
+  z-index: 2;
+}
+
+.edu {
+  width: 70%;
+  margin: 0 15% 0 15%;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+td {
+  width: 25%;
+  line-height: 2;
+  padding: 0 30px 30px 30px;
+  border: 1px solid orange;
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+
+tr {
+  border-style: hidden;
+}
+
+.skillsbg {
+  background-image: url("../images/buildinglarge.jpg");
+  position: relative;
+  bottom: 5px;
+  width: 100%;
+  height: 400px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.skills {
+  z-index: 10;
+  color: #f9f9f9;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 50px;
+  grid-column-gap: 50px;
+  padding: 10px;
+  text-align: center;
+  z-index: 2;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 20px;
+  text-align: center;
+  z-index: 2;
+  color: #465A72;
+}
+
+.contactme {
+  background-color: #ececeb;
+  padding: 30px 0 50px 0;
+  position: relative;
+  bottom: 25px;
+  height: 550px;
+  line-height: 2;
+}
+
+.copywrite {
+  background-color: #465A72;
+  padding: 7px 0 0 0;
+  text-align: center;
+  position: relative;
+  bottom: 25px;
+  color: #f9f9f9;
+}
+
+.form {
+  width: 25%;
+  margin: 0 0 0 25%;
+  text-align: right;
+  float: left;
+  padding-right: 30px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #465A72;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+  width: 100%;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  background-color: #22364f;
+}
